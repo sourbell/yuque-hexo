@@ -1,6 +1,7 @@
 ---
 title: 关于博客
 date: 2023-11-08 20:48:34
+layout: about
 ---
 
 - 写作平台：Notion

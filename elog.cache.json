@@ -1,0 +1,35 @@
+{
+  "docs": [
+    {
+      "id": 201004547,
+      "doc_id": "ol2d3ql5yfnfzr4g",
+      "updated": 1735808468000,
+      "properties": {
+        "title": "读书笔记",
+        "date": "2025-01-02 14:53:16",
+        "updated": "2025-01-02 17:01:08"
+      },
+      "catalog": [],
+      "realName": "读书笔记",
+      "relativePath": "/读书笔记.md",
+      "docPath": "./source/_posts"
+    }
+  ],
+  "catalog": [
+    {
+      "type": "DOC",
+      "title": "读书笔记",
+      "uuid": "8XN1Jld8WagIgimO",
+      "url": "ol2d3ql5yfnfzr4g",
+      "prev_uuid": "",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 201004547,
+      "level": 0,
+      "id": 201004547,
+      "open_window": 1,
+      "visible": 1
+    }
+  ]
+}

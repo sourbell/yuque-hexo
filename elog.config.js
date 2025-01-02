@@ -1,6 +1,6 @@
 module.exports = {
   write: {
-    platform: 'yuque',
+    platform: 'yuque-pwd',
     // Token 模式（需要语雀超级会员）
     yuque: {
       token: process.env.YUQUE_TOKEN,
@@ -33,10 +33,13 @@ module.exports = {
   },
   image: {
     enable: true,
-    platform: 'local',
-    local: {
-      outputDir: './source/images',
-      prefixKey: '/images'
+    platform: 'qiniu',
+    qiniu: {
+      secretId: process.env.QINIU_SECRET_ID,
+      secretKey: process.env.QINIU_SECRET_KEY,
+      bucket: process.env.QINIU_BUCKET,
+      host: process.env.QINIU_HOST,
+      prefixKey: '',
     }
   },
 }

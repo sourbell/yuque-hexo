@@ -34,6 +34,10 @@ jobs:
           YUQUE_PASSWORD: ${{ secrets.YUQUE_PASSWORD }}
           YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
           YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+          QINIU_SECRET_ID: ${{ secrets.QINIU_SECRET_ID }}
+          QINIU_SECRET_KEY: ${{ secrets.QINIU_SECRET_KEY }}
+          QINIU_BUCKET: ${{ secrets.QINIU_BUCKET }}
+          QINIU_HOST: ${{ secrets.QINIU_HOST }}
         run: |
           npm run elog:sync-short
       #          npm run elog:sync

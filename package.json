@@ -9,7 +9,8 @@
     "server": "hexo server",
     "sync:local": "elog sync -e .elog.env",
     "elog:init": "elog init",
-    "elog:sync": "elog sync --disable-cache",
+    "elog:sync": "elog sync --disable-cache",,
+    "elog:sync-short": "elog sync --disable-cache  -c elog.config.shorturl.js -a elog.cache.shorturl.json",
     "elog:clean": "elog clean"
   },
   "hexo": {

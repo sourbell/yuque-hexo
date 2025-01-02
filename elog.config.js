@@ -11,10 +11,10 @@ module.exports = {
     },
     // 账号密码模式
     "yuque-pwd": {
-      username: secrets.YUQUE_USERNAME,
-      password: secrets.YUQUE_PASSWORD,
-      login: secrets.YUQUE_LOGIN,
-      repo: secrets.YUQUE_REPO,
+      username: process.env.YUQUE_USERNAME,
+      password: process.env.YUQUE_PASSWORD,
+      login: process.env.YUQUE_LOGIN,
+      repo: process.env.YUQUE_REPO,
     }
   },
   deploy: {
@@ -35,10 +35,10 @@ module.exports = {
     enable: true,
     platform: 'qiniu',
     qiniu: {
-      secretId: secrets.QINIU_SECRET_ID,
-      secretKey: secrets.QINIU_SECRET_KEY,
-      bucket: secrets.QINIU_BUCKET,
-      host: secrets.QINIU_HOST,
+      secretId: process.env.QINIU_SECRET_ID,
+      secretKey: process.env.QINIU_SECRET_KEY,
+      bucket: process.env.QINIU_BUCKET,
+      host: process.env.QINIU_HOST,
       prefixKey: '',
     }
   },

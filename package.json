@@ -9,7 +9,7 @@
     "server": "hexo server",
     "sync:local": "elog sync -e .elog.env",
     "elog:init": "elog init",
-    "elog:sync": "elog sync",
+    "elog:sync": "elog sync --disable-cache",
     "elog:clean": "elog clean"
   },
   "hexo": {

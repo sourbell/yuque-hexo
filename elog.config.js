@@ -35,10 +35,10 @@ module.exports = {
     enable: true,
     platform: 'qiniu',
     qiniu: {
-      secretId: process.env.QINIU_SECRET_ID,
-      secretKey: process.env.QINIU_SECRET_KEY,
-      bucket: process.env.QINIU_BUCKET,
-      host: process.env.QINIU_HOST,
+      secretId: secrets.QINIU_SECRET_ID,
+      secretKey: secrets.QINIU_SECRET_KEY,
+      bucket: secrets.QINIU_BUCKET,
+      host: secrets.QINIU_HOST,
       prefixKey: '',
     }
   },

@@ -11,10 +11,10 @@ module.exports = {
     },
     // 账号密码模式
     "yuque-pwd": {
-      username: process.env.YUQUE_USERNAME,
-      password: process.env.YUQUE_PASSWORD,
-      login: process.env.YUQUE_LOGIN,
-      repo: process.env.YUQUE_REPO,
+      username: secrets.YUQUE_USERNAME,
+      password: secrets.YUQUE_PASSWORD,
+      login: secrets.YUQUE_LOGIN,
+      repo: secrets.YUQUE_REPO,
     }
   },
   deploy: {
